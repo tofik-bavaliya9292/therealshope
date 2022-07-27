@@ -1,0 +1,148 @@
+* {
+  scroll-behavior: smooth;
+}
+
+.navbar-nav a {
+  font-size: 1.2rem;
+}
+
+.login {
+  height: 23%;
+  margin: 5% 28%;
+  width: 40%;
+  background-color: black;
+  border: 0px;
+  color: white;
+}
+
+.lheding {
+  font-size: 4rem;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  text-align: center;
+  text-transform: capitalize;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.login .te {
+  height: 3rem;
+  width: 24rem;
+  /* justify-content: center; */
+  margin: auto;
+  margin: 3rem 8rem;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 1.7rem;
+  border: none;
+  background-color: transparent;
+  resize: none;
+  outline: 3rem;
+  color: white;
+  border-bottom: 2px solid white;
+
+}
+
+.login .in {
+  height: 3rem;
+  width: 24rem;
+  margin: 2rem 8rem;
+  padding: 10px;
+  font-size: 1.7rem;
+  border: none;
+  background-color: transparent;
+  resize: none;
+  outline: 3rem;
+  color: white;
+  border-bottom: 2px solid white;
+}
+
+.login .kaka {
+  justify-content: center;
+  margin: 2rem 16rem;
+  padding: 10px 42px;
+}
+.login p{
+    position: relative;
+      top: -61px;
+      left: 28rem;
+      font-size: 17px;
+}
+.boots{
+  /* margin-top: 10%; */
+  height: 300px;
+  width: 50%;
+  /* justify-content: center; */
+  margin: auto;
+  border-bottom: 2px solid black;
+}
+.tr{
+  border-bottom: 2px solid black;
+}
+.rege .re{
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 3rem;
+  font-family: monospace;
+  font-weight: 400;
+  margin-bottom: 2.5rem;
+  margin-top: -2.7rem;
+}
+.rege{
+  position: relative;
+  top: 4rem;
+  width: 60%;
+  margin: auto;
+  margin-bottom: 3rem;
+  border-bottom: 2px solid black;
+  padding: 10px;
+}
+.about{
+  text-align: center;
+    text-transform: capitalize;
+    font-size: 4rem;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 200;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+}
+.mainabout{
+  padding: 0rem 5rem;
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  font-weight: 100;
+  font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.iab{
+  padding: 3rem;
+}
+.abou {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 4rem;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 200;
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+}
+
+.contact {
+  padding: 0rem 5rem;
+  text-transform: capitalize;
+  font-size: 1.3rem;
+  font-weight: 50;
+  letter-spacing: 1px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.ncc{
+    padding: '1rem 10rem';
+  }
+
+@media only screen and (max-width:500px) {
+  .login{
+   width: 100%;
+  }
+  .ncc{
+    padding: 1rem 1rem;
+  }
+}
